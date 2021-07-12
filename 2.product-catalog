@@ -1,0 +1,15 @@
+Início 12/07/2021 -> Término 19/07/2021
+
+- Criação do catálogo dos produtos, contendo:
+* Foto simples,
+* Valor,
+* Opção de "Ver mais detalhes".
+
+- Criação de filtro para escolher o resultado dos produtos na tela, podendo ser select ou checkbox.
+
+- A página deve possuir scroll vertical e, caso os produtos ultrapassem uma página, precisaremos
+criar um botão para ir para a próxima página.
+
+- Inserção do menu de navegação na parte superior da página.
+
+- Inserção do footer.
