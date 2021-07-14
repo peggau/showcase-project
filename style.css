@@ -1,0 +1,17 @@
+body{
+    background-color: #D5C9F2;
+    margin: 0;
+}
+  
+header {
+    padding: 4px;
+    text-align: center;
+    background: #3D2E63;
+    color: white;
+    font-size: 20px;
+    font-family: Zen Loop;
+}
+  
+main { 
+    font-family: Bad Script;
+}
