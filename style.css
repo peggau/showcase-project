@@ -24,12 +24,42 @@ main {
     text-align: justify;
 }
 
-.logos {
-    max-width:100px;
-    max-height:50px;
+.imag {
+    max-width: 100px;
+    max-height: 50px;
     width: auto;
     height: auto;
     margin-right: 10px;
+}
+
+.catalog {
+    display: flex;
+    list-style: none !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product {
+    max-width: 250px;
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+.description {
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    background-color: #784CA5;
+    color: white;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #542D7C;
 }
 
 .contact {
