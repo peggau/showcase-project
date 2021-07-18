@@ -52,14 +52,23 @@ main {
     text-align: center;
 }
 
+.btn-header {
+    background-color: #3C455A ;
+    color: white;
+}
+
+.btn-header:hover {
+    background-color: #1F2739;
+}
+
 .btn {
-    background-color: #784CA5;
+    background-color: #603C84;
     color: white;
     margin-bottom: 15px;
 }
 
 .btn:hover {
-    background-color: #542D7C;
+    background-color: #3C2652;
 }
 
 .contact {
