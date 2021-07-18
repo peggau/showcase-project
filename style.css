@@ -55,7 +55,7 @@ main {
 .btn {
     background-color: #784CA5;
     color: white;
-    margin: 5px;
+    margin-bottom: 15px;
 }
 
 .btn:hover {
