@@ -59,6 +59,7 @@ main {
 
 .btn-header:hover {
     background-color: #1F2739;
+    cursor: pointer;
 }
 
 .btn {
@@ -69,6 +70,7 @@ main {
 
 .btn:hover {
     background-color: #3C2652;
+    cursor: pointer;
 }
 
 .contact {
