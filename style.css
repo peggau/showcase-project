@@ -52,14 +52,42 @@ main {
     text-align: center;
 }
 
-.btn {
-    background-color: #784CA5;
+a:link {
+    color: #4d005c;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:visited {
+    color: #4d005c;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:hover {
+    color: #7e6517;
+}
+
+
+.btn-header {
+    background-color: #3C455A ;
     color: white;
-    margin: 5px;
+}
+
+.btn-header:hover {
+    background-color: #1F2739;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #603C84;
+    color: white;
+    margin-bottom: 15px;
 }
 
 .btn:hover {
-    background-color: #542D7C;
+    background-color: #3C2652;
+    cursor: pointer;
 }
 
 .contact {

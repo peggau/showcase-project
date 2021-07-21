@@ -18,19 +18,28 @@
       <h1> Lupa Corinne </h1>
       <p><b> A sua loja mística favorita! </b></p>
       <a href="/institucional-page.html">
-        <button class="button button5"> Sobre nós </button>
+        <button class="btn-header"> Sobre nós </button>
       </a>
       <a href="/contact.html">
-        <button class="button button5"> Contato </button> 
+        <button class="btn-header"> Contato </button> 
       </a>
       <a href="/products.html">
-        <button class="button button5"> Produtos </button>
+        <button class="btn-header"> Produtos </button>
       </a>
     </header>
     
     <main class="description">
       <div>
         <h2> Produtos em destaque </h2>
+      </div>
+      <div>
+        <select name="produtos" id="produtos">
+          <option value="todos"> Todos os produtos </option>
+          <option value="incensos"> Incensos </option>
+          <option value="grimorios"> Grimórios </option>
+          <option value="velas"> Velas </option>
+          <option value="kit"> Kit de Cristais </option>
+        </select>
       </div>
       <div>
         <ul class="catalog description">
@@ -44,13 +53,31 @@
             </div>
           </li>
           <li>
+            <p> Incensos Naturais </p>
             <img class="product" src="/images/incensos.jpg" alt="Incensos">
+            <div>
+              <a href="/incensos-details.html">
+                <button class="btn"> Mais detalhes </button>
+              </a>
+            </div>
           </li>
           <li>
+            <p> Kit de Cristais </p>
             <img class="product" src="/images/kit-cristais.jpg" alt="Kit de Cristais">
+            <div>
+              <a href="/cristais-details.html">
+                <button class="btn"> Mais detalhes </button>
+              </a>
+            </div>
           </li>
           <li>
+            <p> Velas </p>
             <img class="product" src="/images/candle.jpg" alt="Velas">
+            <div>
+              <a href="/velas-details.html">
+                <button class="btn"> Mais detalhes </button>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
