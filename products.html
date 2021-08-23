@@ -1,94 +1,239 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-  
-  <head>
-    <title> Lupa Corinne </title>
-    <meta charset="UTF-8">
-    <meta name="description" content="A sua loja mística favorita!">
-    <meta name="author" content="Lupa Corinne">
-    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Yomogi' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
-  </head>
-  
+
+    <head>
+        <title> Lupa Corinne </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A sua loja mística favorita!">
+        <meta name="author" content="Lupa Corinne">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Yomogi' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    </head>
+
   <body>
-    <header>
-      <h1> Lupa Corinne </h1>
-      <p><b> A sua loja mística favorita! </b></p>
-      <a href="/institucional-page.html">
-        <button class="btn-header"> Sobre nós </button>
-      </a>
-      <a href="/contact.html">
-        <button class="btn-header"> Contato </button> 
-      </a>
-      <a href="/products.html">
-        <button class="btn-header"> Produtos </button>
-      </a>
-    </header>
-    
-    <main class="description">
-      <div>
-        <h2> Produtos em destaque </h2>
+    <header> 
+        <h1> Lupa Corinne </h1>
+        <p><b> A sua loja mística favorita! </b></p>
+        <a href="/institucional.html">
+          <button class="btn btn-dark"> Sobre nós </button>
+        </a>
+        <a href="/contact.html">
+          <button class="btn btn-dark"> Contato </button> 
+        </a>
+        <a href="/products.html">
+          <button class="btn btn-dark"> Produtos </button>
+        </a>
+      </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/grimoire.png" class="card-img-top" alt="Grimório de árvore" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Grimórios </b></h5>
+                      <p class="card-text"> Use-os como guias para anotar suas experiêncicas e estudos! Assim 
+                        você não se perde nas anotações e ainda tem um caderno lindo para te acompanhar no processo. </p>
+                      <h5> R$60,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/board.png" class="card-img-top" alt="Tábua para pêndulo de lua" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Tábuas para Pêndulo </b></h5>
+                      <p class="card-text"> As tábuas para pêndulos servem para que possamos realizar radiestesia e 
+                        fazer perguntas simples de sim, não e talvez. É uma ótima forma de começar nos métodos de adivinhação. </p>
+                      <h5> R$80,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/candle.png" class="card-img-top" alt="Vela de base preta" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Velas </b></h5>
+                      <p class="card-text"> Para iluminar seu caminho dentro dos estudos mágicos, proteger e participar
+                        de rituais diversos. Temos cores, formatos e aromas diferentes para kits. </p>
+                      <h5> R$20,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/catcher.png" class="card-img-top" alt="Filtro dos sonhos verde" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Filtros dos Sonhos </b></h5>
+                      <p class="card-text"> Coloque perto da cabeceira e não se preocupe mais em ter pesadelos
+                        ou terrores noturnos. Os filtros vão te ajudar com isso. Também podemos criar um só pra você. </p>
+                      <h5> R$75,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/crystal.png" class="card-img-top" alt="Cristais brutos" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Cristais </b></h5>
+                      <p class="card-text"> Use-os para seus rituais, para proteger sua casa, sua viagem, caso precise se concentrar,
+                        dormir melhor, ter mais saúde... A imaginação é o limite, só não esqueça de sempre recarregá-los e limpá-los 
+                        após a utilização. </p>
+                      <h5> R$50,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/incense.png" class="card-img-top" alt="Incensos naturais" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Incenso naturais </b></h5>
+                      <p class="card-text"> Para limpezas energéticas, purificações, banimentos e equilíbrio. Cada
+                        erva possui propriedades diferentes, confira! Temos um guia de ervas para você escolher a 
+                        que melhor combina com sua necessidade. </p>
+                      <h5> R$20,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/jar.png" class="card-img-top" alt="Vidrinhos com sal grosso e sal rosa" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Magic Jars </b></h5>
+                      <p class="card-text"> As magic jars servem para praticamente todos os propósitos! Juntando
+                        as ervas e os critais, podemos criar vidrinhos para prosperidade, amor próprio, saúde, sorte,
+                        proteção e o que mais quisermos. </p>
+                      <h5> R$45,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/mirror.png" class="card-img-top" alt="Espelho dourado" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Espelhos mágicos </b></h5>
+                      <p class="card-text"> Os espelhos mágicos tem como propósito magias voltadas aos espelhos, os mais
+                        comuns são feitiços sobre beleza, contato com ancestrais e adivinhação do futuro. Temos as opções 
+                        de mão e maiores, com espelhos normais ou negros. </p>
+                      <h5> R130,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/nature.png" class="card-img-top" alt="Colar de árvore" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Colares </b></h5>
+                      <p class="card-text"> Se quiser ter um pedacinho da natureza sempre próximo ao peito, essa é uma
+                        ótima oportunidade e temos opções lindas. Caso queira, também podemos fazer chaveiros. </p>
+                      <h5> R$40,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/pend.png" class="card-img-top" alt="Pêndulo verde água" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Pêndulos </b></h5>
+                      <p class="card-text"> A utilização dos pêndulos é bem simples e podemos ter quantos quisermos, 
+                        mudando o cristal de acordo com nossas necessidades de pergunta. </p>
+                      <h5> R$60,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/rune.png" class="card-img-top" alt="Futhark de pedra" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Futhark </b></h5>
+                      <p class="card-text"> O Futhark é um dos métodos oraculares mais antigos do mundo, originado na
+                        religião Asatrú. Temos opções de pedras naturais, sintéticas e madeira. </p>
+                      <h5> R$75,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/tarot.png" class="card-img-top" alt="Deck de tarot" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Decks de tarot </b></h5>
+                      <p class="card-text"> Os tarots são métodos de adivinhação, podemos pedir conselhos, ver sobre
+                        nosso passado, presente ou futuro. É uma ótima opção para quem está começando. </p>
+                      <h5> R$90,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+                <div class="card">
+                    <img src="./images/wand.png" class="card-img-top" alt="Varinhas com cristais" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title"><b> Varinhas mágicas </b></h5>
+                      <p class="card-text"> Podemos usá-las para direcionar nossas energias. Claro, sempre podemos 
+                        utilizar nossas mãos, mas as elas são feitas especialmente para manterem nossa energia. </p>
+                      <h5> R$95,00 </h5>
+                      <a href="#" class="btn btn-dark">Detalhes</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+              <div class="card">
+                  <img src="./images/oils.png" class="card-img-top" alt="Óleos essenciais diversos" width="100%">
+                  <div class="card-body">
+                    <h5 class="card-title"><b> Óleos essenciais </b></h5>
+                    <p class="card-text"> A aromaterapia é uma medicina alternativa e graças à ela, menos dos remédios 
+                      convencionais. Cada óleo essencial possui uma propriedade e os resultados são excelentes! </p>
+                    <h5> R$23,00 </h5>
+                    <a href="#" class="btn btn-dark">Detalhes</a>
+                  </div>  
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5">
+            <div class="card">
+                <img src="./images/bell.png" class="card-img-top" alt="Chaveiro com sinos e chave no meio" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title"><b> Sinos | Proteção </b></h5>
+                  <p class="card-text"> O som é um tipo de limpeza espiritual bastante potente, e usando os sinos, podemos 
+                    realizar a limpeza do local e mantê-los perto de nós para que nos protejam constantemente. </p>
+                  <h5> R$99,00 </h5>
+                  <a href="#" class="btn btn-dark">Detalhes</a>
+                </div>  
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-5 mb-5">
+          <div class="card">
+              <img src="./images/stand.png" class="card-img-top" alt="Estante triangular com cristais" width="100%">
+              <div class="card-body">
+                <h5 class="card-title"><b> Estantes | Porta cristais </b></h5>
+                <p class="card-text"> Claro que além de termos cristais para vocês em nossa loja, também temos 
+                  estantes super charmosas para que a organização de seus cristais fique ainda mais bonita. </p>
+                <h5> R$120,00 </h5>
+                <a href="#" class="btn btn-dark">Detalhes</a>
+              </div>  
+          </div>
       </div>
-      <div>
-        <select name="produtos" id="produtos">
-          <option value="todos"> Todos os produtos </option>
-          <option value="incensos"> Incensos </option>
-          <option value="grimorios"> Grimórios </option>
-          <option value="velas"> Velas </option>
-          <option value="kit"> Kit de Cristais </option>
-        </select>
-      </div>
-      <div>
-        <ul class="catalog description">
-          <li>
-            <p> Grimório </p>
-            <img class="product" src="/images/grimorio.jpg" alt="Grimório">
-            <div>
-              <a href="/grimorio-details.html">
-                <button class="btn"> Mais detalhes </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <p> Incensos Naturais </p>
-            <img class="product" src="/images/incensos.jpg" alt="Incensos">
-            <div>
-              <a href="/incensos-details.html">
-                <button class="btn"> Mais detalhes </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <p> Kit de Cristais </p>
-            <img class="product" src="/images/kit-cristais.jpg" alt="Kit de Cristais">
-            <div>
-              <a href="/cristais-details.html">
-                <button class="btn"> Mais detalhes </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <p> Velas </p>
-            <img class="product" src="/images/candle.jpg" alt="Velas">
-            <div>
-              <a href="/velas-details.html">
-                <button class="btn"> Mais detalhes </button>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-
     </main>
-
     <footer>
       <p> ©️ 2021 Lupa Corinne, Todos os direitos reservados.<br>
           Rua P Sherman, 42<br>
-          Wallaby Way | Sydney <br><br>
+          Wallaby Way | Sydney 
       </p>
-    </footer>   
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
 </html>
